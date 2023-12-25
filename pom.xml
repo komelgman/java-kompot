@@ -20,9 +20,9 @@
             <id>deployToGitHub</id>
             <distributionManagement>
                 <repository>
-                    <id>github</id>
+                    <id>github-kompot</id>
                     <name>Komelgman Maven Repository on GitHub Packages</name>
-                    <url>https://maven.pkg.github.com/komelgman/repos</url>
+                    <url>https://maven.pkg.github.com/komelgman/java-kompot</url>
                 </repository>
             </distributionManagement>
         </profile>
