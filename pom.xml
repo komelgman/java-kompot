@@ -6,7 +6,7 @@
 
     <!-- maven artifact info -->
     <packaging>jar</packaging>
-    <groupId>com.github.komelgman</groupId>
+    <groupId>io.github.komelgman</groupId>
     <artifactId>java-kompot</artifactId>
     <version>1.0.0</version>
 
