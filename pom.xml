@@ -24,7 +24,7 @@
 
     <scm>
         <connection>scm:git:git://github.com/komelgman/java-kompot.git</connection>
-        <developerConnection>scm:git:ssh://github.com:komelgman/java-kompot.git</developerConnection>
+        <developerConnection>scm:git:ssh://github.com/komelgman/java-kompot.git</developerConnection>
         <url>https://github.com/komelgman/java-kompot/</url>
     </scm>
 
