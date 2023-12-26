@@ -205,10 +205,9 @@
 
                     <configuration>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
-                        <tagNameFormat>@{project.version}</tagNameFormat>
-                        <pushChanges>false</pushChanges>
-                        <localCheckout>true</localCheckout>
-                        <remoteTagging>false</remoteTagging>
+                        <useReleaseProfile>false</useReleaseProfile>
+                        <releaseProfiles>sonatype-release</releaseProfiles>
+                        <goals>deploy</goals>
                         <arguments>-DskipTests=true</arguments>
                     </configuration>
                 </plugin>
