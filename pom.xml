@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
     <groupId>io.github.komelgman</groupId>
     <artifactId>java-kompot</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <!-- project info -->
     <name>Java Kompot</name>
@@ -158,6 +158,7 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-javadoc-plugin</artifactId>
                     <version>3.6.3</version>
+
                     <executions>
                         <execution>
                             <id>attach-javadocs</id>
@@ -305,4 +306,11 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
