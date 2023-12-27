@@ -26,6 +26,7 @@
         <connection>scm:git:git://github.com/komelgman/java-kompot.git</connection>
         <developerConnection>scm:git:ssh://github.com/komelgman/java-kompot.git</developerConnection>
         <url>https://github.com/komelgman/java-kompot/</url>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
@@ -207,7 +208,10 @@
                         <autoVersionSubmodules>true</autoVersionSubmodules>
                         <useReleaseProfile>false</useReleaseProfile>
                         <releaseProfiles>sonatype-release</releaseProfiles>
+                        <tagNameFormat>release-@{project.version}</tagNameFormat>
                         <pushChanges>false</pushChanges>
+                        <localCheckout>true</localCheckout>
+                        <remoteTagging>false</remoteTagging>
                         <goals>deploy</goals>
                         <arguments>-DskipTests=true</arguments>
                     </configuration>
