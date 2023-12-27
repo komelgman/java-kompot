@@ -6,7 +6,7 @@
     <packaging>jar</packaging>
     <groupId>io.github.komelgman</groupId>
     <artifactId>java-kompot</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <!-- project info -->
     <name>Java Kompot</name>
@@ -24,7 +24,7 @@
         <connection>scm:git:git://github.com/komelgman/java-kompot.git</connection>
         <developerConnection>scm:git:ssh://github.com/komelgman/java-kompot.git</developerConnection>
         <url>https://github.com/komelgman/java-kompot/</url>
-        <tag>release-1.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
