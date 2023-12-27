@@ -207,6 +207,7 @@
                         <autoVersionSubmodules>true</autoVersionSubmodules>
                         <useReleaseProfile>false</useReleaseProfile>
                         <releaseProfiles>sonatype-release</releaseProfiles>
+                        <pushChanges>false</pushChanges>
                         <goals>deploy</goals>
                         <arguments>-DskipTests=true</arguments>
                     </configuration>
